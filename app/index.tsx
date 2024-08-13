@@ -10,6 +10,15 @@ export default function Home() {
       <Stack.Screen options={{ title: 'Home' }} />
       <Container>
         <ScreenContent path="app/index.tsx" title="Home" />
+        <Link href="/nested/page1" asChild>
+          <Button title="Go to Nested Page 1" />
+        </Link>
+        <Link href="/nestedstack/page1" asChild>
+          <Button title="Go to Nested Stack Page 1" />
+        </Link>
+        <Link href="/nestedstackwithlayout/page1" asChild>
+          <Button title="Go to Nested Stack With Group Layout Page 1" />
+        </Link>
         <Link href={{ pathname: '/details', params: { name: 'Dan' } }} asChild>
           <Button title="Show Details" />
         </Link>
