@@ -10,6 +10,9 @@ export default function Home() {
       <Stack.Screen options={{ title: 'Home' }} />
       <Container>
         <ScreenContent path="app/index.tsx" title="Home" />
+        <Link href="/desiredbehavior/page1" asChild>
+          <Button title="Go to Desired Behavior Page 1" />
+        </Link>
         <Link href="/nonested/page1" asChild>
           <Button title="Go to Non Nested Page 1" />
         </Link>
