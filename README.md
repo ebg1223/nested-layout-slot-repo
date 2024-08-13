@@ -1,4 +1,7 @@
 # Demo repo of nested layout slot question.
+Video:
+https://github.com/user-attachments/assets/bab886fe-18a3-4661-b976-c06d79e6e065
+
 
 ## /nonnested
   - page1 and page2 are individual pages, that push onto the top of the stack.
@@ -23,7 +26,4 @@ Actual:
 ## /nestedstackwithlayout
   - header in the correct spot within the nested stack
   - same as /nested, page1 and page2 do not push separate pages to the stack.
-
-Video:
-https://github.com/user-attachments/assets/bab886fe-18a3-4661-b976-c06d79e6e065
 
