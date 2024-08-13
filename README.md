@@ -20,3 +20,7 @@ Actual:
 /nestedstackwithlayout
   - header in the correct spot within the nested stack
   - same as /nested, page1 and page2 do not push separate pages to the stack.
+
+Video:
+https://github.com/user-attachments/assets/bab886fe-18a3-4661-b976-c06d79e6e065
+
