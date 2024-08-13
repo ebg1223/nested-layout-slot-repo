@@ -5,7 +5,7 @@ https://github.com/user-attachments/assets/bab886fe-18a3-4661-b976-c06d79e6e065
 
 ## /desiredbehavior
 
-- how most people think <Slot/> layouts work
+- how most people think "<Slot/>" nested layouts work
 - you can implement this behavior by adding to each page, but this defeats the purpose of slot...
 
 ## /nonnested
